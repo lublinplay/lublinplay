@@ -1,0 +1,114 @@
+
+:root{
+  --blue:#1b8cff;
+  --blue2:#0d6efd;
+  --dark:#07111f;
+  --dark2:#0b1625;
+  --card:#0e1a2a;
+  --text:#eaf3ff;
+  --muted:#8da0b8;
+  --line:#17314e;
+  --white:#ffffff;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--dark);color:var(--text);font-family:'Manrope',Arial,sans-serif}
+a{text-decoration:none;color:inherit}
+img{display:block;width:100%}
+.header{
+  position:sticky;top:0;z-index:60;display:flex;align-items:center;justify-content:space-between;
+  gap:24px;padding:18px 5vw;background:rgba(7,17,31,.94);backdrop-filter:blur(14px);
+  border-bottom:1px solid var(--line)
+}
+.brand,.footer-brand{font-size:28px;font-weight:800;letter-spacing:-1px;color:#fff}
+nav{display:flex;gap:27px}
+nav a{font-size:14px;font-weight:700;color:#d5e4f6}
+nav a:hover{color:var(--blue)}
+.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--blue);color:#fff;border:2px solid var(--blue);border-radius:12px;padding:14px 22px;font-weight:800;cursor:pointer;transition:.2s}
+.btn:hover{background:var(--blue2);border-color:var(--blue2)}
+.small{padding:10px 16px}
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center;padding:82px 5vw 60px}
+.eyebrow{color:#4fa9ff;font-size:12px;letter-spacing:.15em;text-transform:uppercase;font-weight:800}
+h1,h2{font-family:'Orbitron',sans-serif}
+h1{margin:16px 0 20px;color:#fff;font-size:clamp(48px,6vw,88px);line-height:.98;letter-spacing:-.045em}
+h1 span{color:var(--blue)}
+.hero-copy>p,.section-head p,.esports-copy p,.about-copy p{color:var(--muted);font-size:18px;line-height:1.7}
+.actions{display:flex;gap:24px;align-items:center;flex-wrap:wrap;margin-top:28px}
+.text-link{font-weight:800;color:#fff}
+.hero-art img{border:1px solid var(--line);border-radius:30px}
+.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:38px}
+.metrics div{border-top:1px solid var(--line);padding-top:14px}
+.metrics strong{display:block;color:var(--blue);font-size:24px}
+.metrics span{font-size:13px;color:var(--muted)}
+.ticker{display:flex;justify-content:center;gap:34px;flex-wrap:wrap;padding:18px 5vw;background:var(--blue);color:#fff;font-size:12px;font-weight:800;letter-spacing:.11em}
+.section{padding:90px 5vw}
+.section-head{max-width:850px;margin-bottom:38px}
+h2{font-size:clamp(34px,4vw,58px);line-height:1.05;letter-spacing:-.03em;color:#fff;margin:10px 0 12px}
+.product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.product-card{border:1px solid var(--line);border-radius:22px;overflow:hidden;background:var(--card);transition:.25s}
+.product-card:hover{transform:translateY(-6px);box-shadow:0 18px 45px rgba(0,0,0,.28)}
+.product-info{padding:18px}
+.product-info>span{color:var(--blue);font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.1em}
+.product-info h3{font-size:20px;margin:8px 0;color:#fff}
+.product-info p{color:var(--muted);line-height:1.55;font-size:14px}
+.price-row{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:18px}
+.price-row strong{font-size:22px;color:#fff}
+.price-row button{border:none;border-radius:10px;background:var(--blue);color:#fff;padding:10px 14px;font-weight:700;cursor:pointer}
+.price-row button:hover{background:#fff;color:var(--dark)}
+.soft{background:var(--dark2);border-block:1px solid var(--line)}
+.category-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.category-grid article{border:1px solid var(--line);border-radius:18px;padding:24px;background:var(--card)}
+.category-grid span{display:inline-flex;width:44px;height:44px;align-items:center;justify-content:center;border-radius:50%;background:var(--blue);color:#fff;font-weight:800}
+.category-grid h3{font-size:21px}
+.category-grid p{color:var(--muted);line-height:1.55}
+.esports{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.esports-points{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:24px}
+.esports-points div{border:1px solid var(--line);border-radius:14px;padding:17px;background:var(--card)}
+.esports-points strong{color:var(--blue);margin-right:8px}
+.esports-panel{border:1px solid #245a92;border-radius:24px;padding:30px;background:linear-gradient(145deg,#0b1a2b,#0e2848)}
+.live{display:inline-block;background:#ff2b4d;color:#fff;padding:6px 10px;border-radius:999px;font-size:11px;font-weight:800}
+.esports-panel h3{font-size:30px}
+.esports-panel p{color:#a7bad0;line-height:1.6}
+.match{display:flex;justify-content:space-between;align-items:center;border-block:1px solid #28547e;padding:18px 0;margin:20px 0}
+.match b{color:var(--blue)}
+.outline-btn{display:inline-flex;padding:12px 18px;border:1px solid #3c6c98;border-radius:10px;color:#fff;font-weight:800}
+.about{display:grid;grid-template-columns:.9fr 1.1fr;gap:60px}
+.about-points{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.about-points div{border:1px solid var(--line);border-radius:18px;padding:24px;background:var(--card)}
+.about-points span{color:var(--blue);font-size:13px;font-weight:800}
+.about-points strong{display:block;font-size:21px;margin:16px 0 8px}
+.about-points p{color:var(--muted);line-height:1.55}
+.promo{margin:0 5vw;background:linear-gradient(135deg,#1b8cff,#0b4da8);color:#fff;border-radius:26px;padding:55px;display:flex;justify-content:space-between;align-items:center;gap:35px}
+.promo h2{color:#fff;margin-bottom:10px}
+.promo p{margin:0;color:rgba(255,255,255,.88)}
+.light{color:#d9edff}
+.white-btn{background:#fff;color:#0b4da8;border-color:#fff}
+.white-btn:hover{background:#eef6ff;color:#0b4da8}
+.faq{display:grid;gap:12px;max-width:900px}
+details{border:1px solid var(--line);border-radius:14px;padding:18px;background:var(--card)}
+summary{font-weight:800;cursor:pointer}
+details p{color:var(--muted);line-height:1.6}
+.contact-form{max-width:950px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-bottom:15px}
+input,select,textarea{width:100%;border:1px solid #1d3c5c;border-radius:12px;padding:16px 17px;font:inherit;background:#0c1827;color:#fff}
+textarea{margin-bottom:15px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 3px rgba(27,140,255,.12)}
+#formNote{font-size:13px;color:#7f93aa}
+footer{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:30px;padding:45px 5vw;border-top:1px solid var(--line);background:#050c15;color:#7f93aa}
+footer b{color:#fff}
+footer p{line-height:1.7;font-size:13px}
+.reveal{opacity:0;transform:translateY(22px);transition:.7s ease}
+.reveal.visible{opacity:1;transform:none}
+@media(max-width:1050px){
+  nav{display:none}
+  .hero,.esports,.about{grid-template-columns:1fr}
+  .product-grid{grid-template-columns:repeat(2,1fr)}
+  .category-grid,.about-points{grid-template-columns:1fr 1fr}
+  footer{grid-template-columns:1fr 1fr}
+}
+@media(max-width:650px){
+  .header .small{display:none}
+  .hero{padding-top:55px}
+  .metrics,.product-grid,.category-grid,.about-points,.row,footer{grid-template-columns:1fr}
+  .promo{flex-direction:column;align-items:flex-start;padding:38px 26px}
+}

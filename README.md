@@ -1,74 +1,37 @@
-# lublinplay
+# lublinplay Premium Gaming Website
 
-Welcome to **lublinplay**, a modern gaming brand focused on entertainment, creativity, competitive play, and digital experiences.
+Professional blue and black gaming website for **lublinplay**.
 
-## About Us
+## Included
+- Premium gaming homepage
+- 8 gaming products with sample prices
+- Gaming category section
+- Esports/community section
+- Launch promotion
+- FAQ
+- Contact form
+- Product add-to-cart demo buttons
+- Responsive mobile layout
+- Scroll animations
+- Custom SVG gaming graphics
+- GitHub Pages ready
 
-lublinplay is a gaming company dedicated to creating and promoting engaging video game experiences for players, communities, and digital audiences.
+## Sample Products
+- Pro Gaming Headset — $79.99
+- Mechanical RGB Keyboard — $89.99
+- Precision Gaming Mouse — $49.99
+- Wireless Pro Controller — $69.99
+- Gaming Chair X1 — $199.99
+- 27-inch Gaming Monitor — $249.99
+- Streaming Microphone — $99.99
+- XL Gaming Mouse Pad — $29.99
 
-Our goal is to build a modern gaming brand that combines entertainment, technology, community, and creative content.
+## Publish
+Upload all files and folders to:
+`lublinplay.github.io`
 
-## What We Focus On
+Keep `index.html` in the root.
 
-- Video Games
-- Gaming Content
-- Online Gaming
-- Competitive Gaming
-- Gaming Communities
-- Game Reviews
-- Game Recommendations
-- Gaming News
-- Digital Entertainment
-- Esports Content
-- Streaming
-- Gaming Events
-
-## Our Mission
-
-Our mission is to provide entertaining and engaging gaming experiences while building a strong community around games, competition, creativity, and digital entertainment.
-
-## Our Vision
-
-We aim to grow lublinplay into a recognizable gaming brand known for quality content, modern presentation, community engagement, and strong gaming experiences.
-
-## Gaming Categories
-
-- Action Games
-- Shooter Games
-- Racing Games
-- Sports Games
-- Adventure Games
-- Strategy Games
-- Multiplayer Games
-- Battle Royale
-- Simulation Games
-- Mobile Games
-
-## Why lublinplay
-
-- Modern gaming identity
-- Community-focused experience
-- Gaming content and entertainment
-- Competitive gaming support
-- Digital-first brand
-- Creative presentation
-- Player-focused content
-- Modern and professional design
-
-## Community
-
-lublinplay is built for players who enjoy gaming, competition, entertainment, and discovering new gaming experiences.
-
-We aim to create a space where gamers can explore content, connect with others, and enjoy the world of video games.
-
-## Website
-
-Official website coming soon.
-
-## Contact
-
-For gaming partnerships, collaborations, sponsorships, content opportunities, or general inquiries, please contact lublinplay through our official communication channels.
-
----
-
-© 2026 lublinplay. All rights reserved.
+## Important
+The prices, add-to-cart buttons and contact form are demo content.
+Connect the website later to Shopify, Stripe, PayPal, WooCommerce, WhatsApp or your preferred backend.
